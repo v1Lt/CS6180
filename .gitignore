@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+*.pt
+.ipynb_checkpoints/
+HW1/nanoGPT/data/**/input.txt
+HW1/nanoGPT/data/**/*.bin
+HW1/nanoGPT/data/**/meta.pkl

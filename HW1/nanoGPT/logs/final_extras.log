@@ -1,0 +1,18 @@
+number of parameters: 10.65M
+num decayed parameter tensors: 26, with 10,740,096 parameters
+num non-decayed parameter tensors: 13, with 4,992 parameters
+using fused AdamW: True
+layernorm                                32.0 ms/iter
+number of parameters: 10.65M
+num decayed parameter tensors: 26, with 10,740,096 parameters
+num non-decayed parameter tensors: 13, with 4,992 parameters
+using fused AdamW: True
+rmsnorm (unfused, used in experiments)   39.5 ms/iter
+number of parameters: 10.65M
+num decayed parameter tensors: 26, with 10,740,096 parameters
+num non-decayed parameter tensors: 13, with 4,992 parameters
+using fused AdamW: True
+rmsnorm (fused F.rms_norm)               31.8 ms/iter
+jobs: [('nope', 0.00025, 1337)]
+finished runs\nope_lr2.5e-4
+final extras done

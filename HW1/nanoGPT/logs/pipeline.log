@@ -1,0 +1,50 @@
+phase 1 (lr 4e-3): [('baseline', 0.004, 1337), ('rmsnorm', 0.004, 1337), ('swiglu', 0.004, 1337), ('gqa', 0.004, 1337)]
+finished runs\baseline_lr4e-3
+finished runs\rmsnorm_lr4e-3
+finished runs\swiglu_lr4e-3
+finished runs\gqa_lr4e-3
+phase 2 (seeds) best lr: {'baseline': 0.004, 'rmsnorm': 0.003, 'swiglu': 0.003, 'nope': 0.0005, 'rope': 0.001, 'gqa': 0.003}
+finished runs\baseline_lr4e-3_s1338
+finished runs\baseline_lr4e-3_s1339
+finished runs\rmsnorm_lr3e-3_s1338
+finished runs\rmsnorm_lr3e-3_s1339
+finished runs\swiglu_lr3e-3_s1338
+finished runs\swiglu_lr3e-3_s1339
+finished runs\nope_lr5e-4_s1338
+finished runs\nope_lr5e-4_s1339
+finished runs\rope_lr1e-3_s1338
+finished runs\rope_lr1e-3_s1339
+finished runs\gqa_lr3e-3_s1338
+finished runs\gqa_lr3e-3_s1339
+phase 3 (benchmark)
+number of parameters: 10.65M
+num decayed parameter tensors: 26, with 10,740,096 parameters
+num non-decayed parameter tensors: 13, with 4,992 parameters
+using fused AdamW: True
+baseline {'params': 10745088, 'ms_per_iter': 32.520900000236, 'kv_cache_values_per_token': 4608}
+number of parameters: 10.65M
+num decayed parameter tensors: 26, with 10,740,096 parameters
+num non-decayed parameter tensors: 13, with 4,992 parameters
+using fused AdamW: True
+rmsnorm {'params': 10745088, 'ms_per_iter': 39.90920000069309, 'kv_cache_values_per_token': 4608}
+number of parameters: 10.65M
+num decayed parameter tensors: 26, with 10,740,096 parameters
+num non-decayed parameter tensors: 13, with 4,992 parameters
+using fused AdamW: True
+swiglu {'params': 10745088, 'ms_per_iter': 34.68299999804003, 'kv_cache_values_per_token': 4608}
+number of parameters: 10.65M
+num decayed parameter tensors: 25, with 10,641,792 parameters
+num non-decayed parameter tensors: 13, with 4,992 parameters
+using fused AdamW: True
+nope {'params': 10646784, 'ms_per_iter': 32.26300000096671, 'kv_cache_values_per_token': 4608}
+number of parameters: 10.65M
+num decayed parameter tensors: 25, with 10,641,792 parameters
+num non-decayed parameter tensors: 13, with 4,992 parameters
+using fused AdamW: True
+rope {'params': 10646784, 'ms_per_iter': 36.40290000112145, 'kv_cache_values_per_token': 4608}
+number of parameters: 9.76M
+num decayed parameter tensors: 26, with 9,855,360 parameters
+num non-decayed parameter tensors: 13, with 4,992 parameters
+using fused AdamW: True
+gqa {'params': 9860352, 'ms_per_iter': 31.439900001714705, 'kv_cache_values_per_token': 2304}
+pipeline done

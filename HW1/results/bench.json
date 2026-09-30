@@ -1,0 +1,32 @@
+{
+ "baseline": {
+  "params": 10745088,
+  "ms_per_iter": 32.520900000236,
+  "kv_cache_values_per_token": 4608
+ },
+ "rmsnorm": {
+  "params": 10745088,
+  "ms_per_iter": 39.90920000069309,
+  "kv_cache_values_per_token": 4608
+ },
+ "swiglu": {
+  "params": 10745088,
+  "ms_per_iter": 34.68299999804003,
+  "kv_cache_values_per_token": 4608
+ },
+ "nope": {
+  "params": 10646784,
+  "ms_per_iter": 32.26300000096671,
+  "kv_cache_values_per_token": 4608
+ },
+ "rope": {
+  "params": 10646784,
+  "ms_per_iter": 36.40290000112145,
+  "kv_cache_values_per_token": 4608
+ },
+ "gqa": {
+  "params": 9860352,
+  "ms_per_iter": 31.439900001714705,
+  "kv_cache_values_per_token": 2304
+ }
+}

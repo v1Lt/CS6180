@@ -1,0 +1,18 @@
+finished runs\baseline_lr5e-4
+finished runs\baseline_lr2e-3
+finished runs\rmsnorm_lr5e-4
+finished runs\rmsnorm_lr1e-3
+finished runs\rmsnorm_lr2e-3
+finished runs\swiglu_lr5e-4
+finished runs\swiglu_lr1e-3
+finished runs\swiglu_lr2e-3
+finished runs\nope_lr5e-4
+finished runs\nope_lr1e-3
+finished runs\nope_lr2e-3
+finished runs\rope_lr5e-4
+finished runs\rope_lr1e-3
+finished runs\rope_lr2e-3
+finished runs\gqa_lr5e-4
+finished runs\gqa_lr1e-3
+finished runs\gqa_lr2e-3
+finished runs\baseline_lr1e-3 (cached)
